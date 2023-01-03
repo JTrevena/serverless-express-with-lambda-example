@@ -6,7 +6,9 @@
       "es2020"
     ],
     "declaration": true,
+    "allowJs": true,
     "strict": true,
+    "outDir": "./build",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noImplicitThis": true,
@@ -25,6 +27,7 @@
   },
   "exclude": [
     "node_modules",
-    "cdk.out"
+    "cdk.out",
+    "build"
   ]
 }
